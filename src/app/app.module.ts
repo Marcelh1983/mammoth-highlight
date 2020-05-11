@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { NgxDocViewerModule } from 'ngx-doc-viewer';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
+    NgxDocViewerModule,
     BrowserModule
   ],
   providers: [],
